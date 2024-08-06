@@ -1,0 +1,16 @@
+Input arguments: ['InputFile=in.txt'] 
+1
+SUCCESS
+Input arguments: IPaddr=172.27.240.1; IEDname=E02_E207_BF_SEL751; DataName=ANN/AINCGGIO21$CF$AnIn01$units$SIUnit; Value=1;
+Updated value is 1IPaddr=172.27.240.1; IEDname=E02_E207_BF_SEL751; DataName=ANN/AINCGGIO21$CF$AnIn01$units$SIUnit; Value=1
+2
+SUCCESS
+Input arguments: IPaddr=172.27.240.1; IEDname=E02_E207_BF_SEL751; DataName=ANN/AINCGGIO21$CF$AnIn02$units$SIUnit; Value=2;
+Updated value is 2IPaddr=172.27.240.1; IEDname=E02_E207_BF_SEL751; DataName=ANN/AINCGGIO21$CF$AnIn02$units$SIUnit; Value=2
+3
+SUCCESS
+Input arguments: IPaddr=172.27.240.1; IEDname=E02_E207_BF_SEL751; DataName=ANN/AINCGGIO21$CF$AnIn03$units$SIUnit; Value=2;
+Updated value is 2IPaddr=172.27.240.1; IEDname=E02_E207_BF_SEL751; DataName=ANN/AINCGGIO21$CF$AnIn03$units$SIUnit; Value=2
+4
+SUCCESS
+Input arguments: IPaddr=172.27.240.1; IEDname=E02_E207_BF_SEL751; DataName=ANN/AINCGGIO21$CF$AnIn04$units$SIUnit; Value=2;Updated value is 2IPaddr=172.27.240.1; IEDname=E02_E207_BF_SEL751; DataName=ANN/AINCGGIO21$CF$AnIn04$units$SIUnit; Value=2

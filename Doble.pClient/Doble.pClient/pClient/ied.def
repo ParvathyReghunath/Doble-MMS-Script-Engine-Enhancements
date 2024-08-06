@@ -1,0 +1,17 @@
+LIBRARY
+
+EXPORTS
+
+xDllInit
+xDllPost
+xAddIed
+xRemoveIed
+xGetDataEx
+xSetDataEx
+xConnect
+xDisconnect
+xChangeIp
+xGetStructData
+xSelect
+xSelectWithValue
+xOperate

@@ -1,0 +1,3 @@
+FAILED
+Input arguments: ['IPaddr=192.168.100.174;', 'IEDname=ied1;', 'DataName=lDevice1/LPHD1$CO$Sim;', 'Value=1;'] 
+Reason: connect to IED failed

@@ -1,0 +1,7 @@
+1. uninstall existing python u have.
+
+2. install python 3.4 : https://www.python.org/ftp/python/3.4.0/python-3.4.0.amd64.msi
+
+3. install py2exe : py -3.4 -m pip install py2exe
+
+4. build exe : py -3.4 -m py2exe.build_exe read.py -c --bundle-files 3 --library library.zip

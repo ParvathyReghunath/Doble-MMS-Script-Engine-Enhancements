@@ -1,0 +1,1 @@
+IPaddr=172.16.20.98 IEDname=ied DataName=CTRL/CSWI2.CO.Pos.Oper.ctlVal Value=1

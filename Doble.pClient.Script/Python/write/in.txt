@@ -1,0 +1,1 @@
+IPaddr=172.27.240.1; IEDname=E02_E207_BF_SEL751; DataName=ANN/AINCGGIO21$CF$AnIn01$units$SIUnit; Value=1;
