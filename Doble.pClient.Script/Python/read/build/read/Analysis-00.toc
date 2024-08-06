@@ -1,0 +1,456 @@
+(['D:\\Doble\\Doble.pClient.Script\\Python\\read\\read.py'],
+ ['D:\\Doble\\Doble.pClient.Script\\Python\\read'],
+ [],
+ ['C:\\Users\\Parvathy '
+  'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks',
+  'C:\\Users\\Parvathy '
+  'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks'],
+ {},
+ [],
+ [],
+ False,
+ {},
+ [],
+ [],
+ '3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:20:04) [MSC v.1929 32 bit '
+ '(Intel)]',
+ [('pyi_rth_inspect',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('read',
+   'D:\\Doble\\Doble.pClient.Script\\Python\\read\\read.py',
+   'PYSOURCE')],
+ [('inspect',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\inspect.py',
+   'PYMODULE'),
+  ('importlib',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('typing',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\typing.py',
+   'PYMODULE'),
+  ('contextlib',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('importlib._abc',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\_abc.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\metadata\\__init__.py',
+   'PYMODULE'),
+  ('importlib.metadata._itertools',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\metadata\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.metadata._functools',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\metadata\\_functools.py',
+   'PYMODULE'),
+  ('importlib.metadata._collections',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\metadata\\_collections.py',
+   'PYMODULE'),
+  ('importlib.metadata._meta',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\metadata\\_meta.py',
+   'PYMODULE'),
+  ('importlib.metadata._adapters',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\metadata\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.metadata._text',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\metadata\\_text.py',
+   'PYMODULE'),
+  ('email.message',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('urllib',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('copy',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\copy.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\random.py',
+   'PYMODULE'),
+  ('statistics',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\statistics.py',
+   'PYMODULE'),
+  ('decimal',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('contextvars',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\contextvars.py',
+   'PYMODULE'),
+  ('fractions',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\fractions.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\numbers.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pickle',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\pprint.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\dataclasses.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('struct',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\struct.py',
+   'PYMODULE'),
+  ('threading',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\bisect.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('base64',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\base64.py',
+   'PYMODULE'),
+  ('getopt',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\getopt.py',
+   'PYMODULE'),
+  ('gettext',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\gettext.py',
+   'PYMODULE'),
+  ('email.charset',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('calendar',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\calendar.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('datetime',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\datetime.py',
+   'PYMODULE'),
+  ('_strptime',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('socket',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\socket.py',
+   'PYMODULE'),
+  ('selectors',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\selectors.py',
+   'PYMODULE'),
+  ('quopri',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\quopri.py',
+   'PYMODULE'),
+  ('uu',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\uu.py',
+   'PYMODULE'),
+  ('optparse',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\optparse.py',
+   'PYMODULE'),
+  ('textwrap',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('zipfile',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('py_compile',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\py_compile.py',
+   'PYMODULE'),
+  ('lzma',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\lzma.py',
+   'PYMODULE'),
+  ('_compression',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\_compression.py',
+   'PYMODULE'),
+  ('bz2',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\bz2.py',
+   'PYMODULE'),
+  ('shutil',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\shutil.py',
+   'PYMODULE'),
+  ('tarfile',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('gzip',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\gzip.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('pathlib',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\pathlib.py',
+   'PYMODULE'),
+  ('email',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email.parser',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('csv',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\csv.py',
+   'PYMODULE'),
+  ('importlib.readers',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\readers.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('argparse',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\argparse.py',
+   'PYMODULE'),
+  ('token',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\token.py',
+   'PYMODULE'),
+  ('tokenize',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\tokenize.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('dis',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\dis.py',
+   'PYMODULE'),
+  ('opcode',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\opcode.py',
+   'PYMODULE'),
+  ('ast',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\ast.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('ctypes',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('string',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\string.py',
+   'PYMODULE'),
+  ('subprocess',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\lib\\signal.py',
+   'PYMODULE')],
+ [('python310.dll',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\python310.dll',
+   'BINARY'),
+  ('_decimal.pyd',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('libcrypto-1_1.dll',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
+  ('libffi-7.dll',
+   'C:\\Users\\Parvathy '
+   'Raghunath\\AppData\\Local\\Programs\\Python\\Python310-32\\DLLs\\libffi-7.dll',
+   'BINARY')],
+ [],
+ [],
+ [('base_library.zip',
+   'D:\\Doble\\Doble.pClient.Script\\Python\\read\\build\\read\\base_library.zip',
+   'DATA')])

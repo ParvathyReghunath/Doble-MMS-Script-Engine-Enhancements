@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{8379473e-0bd5-4604-929a-556ff05a0a10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ssrc">
+      <UniqueIdentifier>{c0623b32-0747-4933-acea-dc8219c45119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\sinc">
+      <UniqueIdentifier>{6d2d0dde-26c3-4092-bf81-094c8822415b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ied.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\cli_async.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cli_nvl.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\cli_rpt.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\client.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\clntobj.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\dib_list.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\event.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\logcfgx.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mmslvar.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mmsop_en.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mvl61850_ltrk.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mvl_acse.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\mvlop_en.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\reject.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\scl_dib.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\stdtime_mms_utctime.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\subnet.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\u_ifile.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\src\acsi.cpp">
+      <Filter>Source Files\ssrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\c\src\function.c">
+      <Filter>Source Files\ssrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\src\ied.cpp">
+      <Filter>Source Files\ssrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\src\pipe.cpp">
+      <Filter>Source Files\ssrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\src\xml.cpp">
+      <Filter>Source Files\ssrc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\cpp\inc\acsi.hpp">
+      <Filter>Header Files\sinc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\c\inc\function.h">
+      <Filter>Header Files\sinc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\inc\ied.hpp">
+      <Filter>Header Files\sinc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\inc\pipe.hpp">
+      <Filter>Header Files\sinc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\inc\xml.hpp">
+      <Filter>Header Files\sinc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+python batchwrite.py IPaddr=192.168.100.21 IEDname=ied DataName=MEAS/AI_MMXU1.MX.A.phsA.cVal.mag.f InputFile="D:\Doble\Doble.pClient.Script\Python\batchWrite\infile.txt";

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{D6F06410-7B68-40EE-90BA-627DD5F62639}</ProjectGuid>
+    <RootNamespace>pClient</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>17.0.34031.279</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\inc;..\kinc;..\cpp\inc;..\c\inc;..\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;DEBUG_SISCO;MMS_LITE;ETHERNET;WIN32;_CONSOLE;MOSI;LEAN_T;MLOG_ENABLE_DIS;USE_DIB_LIST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;odbc32.lib;odbccp32.lib;ws2_32.lib;asn1_ld.lib;gse_mgmt_ld.lib;mem_ld.lib;meml_ld.lib;mlog_ld.lib;mmsl_ld.lib;mmsle_ld.lib;mvlu_ld.lib;mvl_ld.lib;ositpxs_ld.lib;slogl_ld.lib;smem_ld.lib;smpval_ld.lib;utility_ld.lib;Packet.lib;wpcap.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\lib\Libs\SISCO\Debug;..\lib\Libs\Win;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libcmtd;LIBCMT.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ModuleDefinitionFile>ied.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>../inc;../kinc;..\cpp\inc;..\c\inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NDEBUG;DEBUG_SISCO;MMS_LITE;ETHERNET;WIN32;_CONSOLE;MOSI;LEAN_T;MVL_UCA;MLOG_ENABLE;USE_RECURSIVE_READ;USE_DIB_LIST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;winmm.lib;odbc32.lib;odbccp32.lib;asn1_l.lib;gse_mgmt_l.lib;mem_l.lib;meml_l.lib;mlog_l.lib;mmsl_l.lib;mmsle_l.lib;mvlu_l.lib;mvl_l.lib;ositpxs_l.lib;slogl_l.lib;smem_l.lib;smpval_l.lib;utility_l.lib;Packet.lib;wpcap.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../lib\Libs\SISCO\Release;../lib\Libs\Win;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>libcmtd;LIBCMT.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ModuleDefinitionFile>ied.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ied.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\cpp\src\acsi.cpp" />
+    <ClCompile Include="..\cpp\src\ied.cpp" />
+    <ClCompile Include="..\cpp\src\pipe.cpp" />
+    <ClCompile Include="..\cpp\src\xml.cpp" />
+    <ClCompile Include="..\c\src\function.c" />
+    <ClCompile Include="..\src\client.c" />
+    <ClCompile Include="..\src\cli_async.c" />
+    <ClCompile Include="..\src\cli_nvl.c" />
+    <ClCompile Include="..\src\cli_rpt.c" />
+    <ClCompile Include="..\src\clntobj.c" />
+    <ClCompile Include="..\src\dib_list.c" />
+    <ClCompile Include="..\src\event.c" />
+    <ClCompile Include="..\src\logcfgx.c" />
+    <ClCompile Include="..\src\mmslvar.c" />
+    <ClCompile Include="..\src\mmsop_en.c" />
+    <ClCompile Include="..\src\mvl61850_ltrk.c" />
+    <ClCompile Include="..\src\mvlop_en.c" />
+    <ClCompile Include="..\src\mvl_acse.c" />
+    <ClCompile Include="..\src\reject.c" />
+    <ClCompile Include="..\src\scl_dib.c" />
+    <ClCompile Include="..\src\stdtime_mms_utctime.c" />
+    <ClCompile Include="..\src\subnet.c" />
+    <ClCompile Include="..\src\u_ifile.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\cpp\inc\acsi.hpp" />
+    <ClInclude Include="..\cpp\inc\ied.hpp" />
+    <ClInclude Include="..\cpp\inc\pipe.hpp" />
+    <ClInclude Include="..\cpp\inc\xml.hpp" />
+    <ClInclude Include="..\c\inc\function.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,4 @@
+﻿  LINK : D:\Doble\Doble.pClient\pClient\Debug\pClient.exe not found or not built by the last incremental link; performing full link
+acsi.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     Creating library D:\Doble\Doble.pClient\pClient\Debug\pClient.lib and object D:\Doble\Doble.pClient\pClient\Debug\pClient.exp
+  pClient.vcxproj -> D:\Doble\Doble.pClient\pClient\Debug\pClient.exe

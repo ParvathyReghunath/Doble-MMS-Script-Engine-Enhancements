@@ -1,0 +1,4 @@
+FAILED
+Input arguments: ['IPaddr=192.168.100.21', 'IEDname=ied', 'DataName=CTRL/CSWI2.CO.Pos.Oper.ctlVal', 'Value=1', 'OutputFile=D:\\Doble\\Doble.pClient.Script\\Python\\controlout.txt;'] 
+Reason: read for ctlModel failed
+Info: check "IEDname" or "DataName" 
